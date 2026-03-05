@@ -36,7 +36,7 @@ dependencies {
     implementation(project(":clipboard"))
 
     // For NotificationBuilder
-    compileOnly(project(":api:1.12.2-forge")) { isTransitive = false}
+    compileOnly(project(":api:1.16.2-fabric")) { isTransitive = false}
 
     testImplementation(kotlin("test"))
 }
